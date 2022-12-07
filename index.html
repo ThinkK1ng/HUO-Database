@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hack Universe Online</title>
     <link href="./dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b2200ec0ec.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
       rel="stylesheet"
@@ -14,14 +18,66 @@
   </head>
 
   <body class="text-white">
-    <header>
-      <button>
-        <i class="logo"></i>
-      </button>
-      <h1 class="text-7xl font-thin text-center text-blue-600">
-        Hack Universe Online
-      </h1>
-    </header>
+    <nav
+      class="w-full p-4 bg-cyan-300 shadow text-black inline-flex md:flex md:items-center justify-between"
+    >
+    <!-- Webpage logo and name -->
+      <div>
+        <span class="text-4xl">
+          <img
+            src="./images/HUO Icon Transparent.png"
+            alt="Page logo"
+            class="h-24 inline cursor-pointer"
+            id="reload"
+          />
+          Hack Universe Online</span
+        >
+      </div>
+      <!-- searc bar -->
+      <form id="search-form">
+        <input id="search-input" class="rounded-l-lg w-80 h-8">
+        <button class="rounded-r-lg bg-indigo-500 w-10 h-8"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+      <!-- list of links -->
+      <ul class="md:flex md:items-center">
+        <li class="mx-4">
+          <a href="#World Lore" class="text-xl hover:text-indigo-500 duration-700"
+            >World Lore</a
+          >
+        </li>
+        <li class="mx-4">
+          <a href="#Events" class="text-xl hover:text-indigo-500 duration-700"
+            >Events</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="./races.html"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Races</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="./skills.html"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Classes</a
+          >
+        </li>
+        <li class="mx-4">
+          <a href="#Currency" class="text-xl hover:text-indigo-500 duration-700"
+            >Currency</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="https://discord.gg/9nK9ce8fmw"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Log In</a
+          >
+        </li>
+      </ul>
+    </nav>
 
     <div class="text-center m-20">
       <h2 class="text-5xl text-blue-700">About</h2>
@@ -31,7 +87,7 @@
         quaerat unde? Id amet quae minima ratione exercitationem!
       </p>
     </div>
-    <div class="text-center m-20">
+    <div class="text-center m-20" id="World Lore">
       <h2 class="text-5xl text-blue-700">World Lore</h2>
       <p class="text-3xl">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, hic
@@ -39,7 +95,7 @@
         quaerat unde? Id amet quae minima ratione exercitationem!
       </p>
     </div>
-    <div class="text-center m-20">
+    <div class="text-center m-20" id="Events">
       <h2 class="text-5xl text-blue-700">Events</h2>
     </div>
     <div class="text-center m-20">
@@ -49,6 +105,9 @@
       <h2 class="text-5xl text-blue-700">
         <a href="./skills.html">Classes</a>
       </h2>
+    </div>
+    <div class="text-center m-20" id="Currency">
+      <h2 class="text-5xl text-blue-700">Currency</h2>
     </div>
     <script src="./js/huo.js"></script>
   </body>
