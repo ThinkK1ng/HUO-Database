@@ -7,14 +7,83 @@
     <title>Skills</title>
     <link href="./dist/output.css" rel="stylesheet" />
     <link rel="icon" href="./images/HUO Icon Transparent.png" />
+    <script
+      src="https://kit.fontawesome.com/b2200ec0ec.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/huo.css" />
+    <link rel="icon" href="./images/HUO Icon Transparent.png" />
   </head>
   <body>
-    <h1 class="text-7xl font-thin text-center text-blue-600">Classes and Skills</h1>
+    <nav
+      class="w-full p-4 bg-blue-400 shadow text-black inline-flex md:flex md:items-center justify-between"
+    >
+      <div>
+        <span class="text-4xl">
+          <img
+            src="./images/HUO Icon Transparent.png"
+            alt="Page logo"
+            class="h-24 inline cursor-pointer"
+            id="reload"
+          />
+          Hack Universe Online</span
+        >
+      </div>
+      <form id="search-form">
+        <input
+          id="search-input"
+          class="rounded-l-lg w-96 h-8 inline justify-center"
+        />
+        <button
+          class="rounded-r-lg bg-indigo-500 w-10 h-8 inline justify-center"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <ul class="md:flex md:items-center">
+        <li class="mx-4">
+          <a
+            href="./index.html"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >World Lore</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="./index.html"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Events</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="./races.html"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Races</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="./index.html"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Currency</a
+          >
+        </li>
+        <li class="mx-4">
+          <a
+            href="https://discord.gg/9nK9ce8fmw"
+            class="text-xl hover:text-indigo-500 duration-700"
+            >Log In</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <h1 class="text-7xl font-thin text-center text-blue-600 m-20">
+      Classes and Skills
+    </h1>
 
     <script src="./js/huo.js"></script>
   </body>

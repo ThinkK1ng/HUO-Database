@@ -14,14 +14,15 @@
       href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/huo.css" />
+    <!-- web tab icon -->
+    <link rel="icon" href="./images/HUO Icon Transparent.png" />
   </head>
 
   <body class="text-white">
     <nav
-      class="w-full p-4 bg-cyan-300 shadow text-black inline-flex md:flex md:items-center justify-between"
+      class="w-full p-4 bg-blue-400 shadow text-black inline-flex md:flex md:items-center justify-between"
     >
-    <!-- Webpage logo and name -->
+      <!-- Webpage logo and name -->
       <div>
         <span class="text-4xl">
           <img
@@ -35,13 +36,22 @@
       </div>
       <!-- searc bar -->
       <form id="search-form">
-        <input id="search-input" class="rounded-l-lg w-80 h-8">
-        <button class="rounded-r-lg bg-indigo-500 w-10 h-8"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input
+          id="search-input"
+          class="rounded-l-lg w-96 h-8 inline justify-center"
+        />
+        <button
+          class="rounded-r-lg bg-indigo-500 w-10 h-8 inline justify-center"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
       </form>
       <!-- list of links -->
       <ul class="md:flex md:items-center">
         <li class="mx-4">
-          <a href="#World Lore" class="text-xl hover:text-indigo-500 duration-700"
+          <a
+            href="#World Lore"
+            class="text-xl hover:text-indigo-500 duration-700"
             >World Lore</a
           >
         </li>
@@ -108,6 +118,15 @@
     </div>
     <div class="text-center m-20" id="Currency">
       <h2 class="text-5xl text-blue-700">Currency</h2>
+      <p class="text-3xl">
+        The economy of HUO revolves around eXcel, or "X" as it is commonly
+        reffered as. It is the only currency within the world of HUO aside from
+        item trading. <br />Many players seek to acquire as much eXcel as
+        possible for one simple reason: eXcel can be converted into real world
+        money at a rate of two eXcel per dollar. <br />This implementation from
+        the devs ensured that simply playing HUO could lead to real world
+        benefits, thus cementing its spot as the top game on all the charts.
+      </p>
     </div>
     <script src="./js/huo.js"></script>
   </body>
