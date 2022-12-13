@@ -561,11 +561,6 @@ video {
   margin-right: auto;
 }
 
-.mx-7 {
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -592,10 +587,6 @@ video {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-20 {
-  height: 5rem;
 }
 
 .h-40 {
@@ -738,6 +729,11 @@ video {
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
 .text-blue-600 {
